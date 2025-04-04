@@ -1,13 +1,17 @@
 # cve_query_module
 These 2 python files are the NVD and OSV query module for a larger project. 
+NOTE: Format and colors from stdout are not maintained in this README file
+
 
 They read from "system_info.json", which has an entry for each application, operating system, and hardware identified on a system. 
 Each entry in the file has a software name, version, and then the item in CPE format (see "system_info.json"). 
 This is required since OSV queries by software name while NVD queries by using the CPE format.
 
-#Example Runs
 
-$ python3 query_nvd.py
+**Example Runs:**
+
+
+**$ python3 query_nvd.py**
 
 
                 ╔═══════════════════════════════════╗
@@ -35,7 +39,7 @@ Score: 5.0
 Description: GNOME NetworkManager version 1.10.2 and earlier contains a Information Exposure (CWE-200) vulnerability in DNS resolver that can result in Private DNS queries leaked to local network's DNS servers, while on VPN. This vulnerability appears to have been fixed in Some Ubuntu 16.04 packages were fixed, but later updates removed the fix. cf. https://bugs.launchpad.net/ubuntu/+bug/1754671 an upstream fix does not appear to be available at this time.
 --------------------------------------------------
 
-$ python3 query_osv.py
+**$ python3 query_osv.py**
 
 
                 ╔══════════════════════════════╗
