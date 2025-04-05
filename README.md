@@ -1,11 +1,11 @@
 # cve_query_module
-These 2 python files are the NVD and OSV query module for a larger project.  
+These 2 python files are the NVD and OSV query module for a larger project.<br>
 NOTE: Format and colors from stdout are not maintained in this README file
 
 
 They read from "system_info.json", which has an entry for each application, operating system, and hardware identified on a system. 
 Each entry in the file has a software name, version, and then the item in CPE format (see "system_info.json"). 
-This is required since OSV queries by software name while NVD queries by using the CPE format.    
+This is required since OSV queries by software name while NVD queries by using the CPE format.<br>
 
 
 **Example Runs:**    
