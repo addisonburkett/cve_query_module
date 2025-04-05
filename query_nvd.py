@@ -172,7 +172,7 @@ def main():
     print("\t\t║" + " " * width + "║")
     print("\t\t╚" + "═" * width + "╝" + RESET + "\n\n")
 
-    api_key = "b52f218b-3379-4c3d-92f7-7d8b81ca0389"
+    api_key = "api_key_goes_here"
 
     # Load system info from JSON
     json_file = "system_info.json"
