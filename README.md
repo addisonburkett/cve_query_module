@@ -2,6 +2,7 @@
 These 2 python files are the NVD and OSV query module for a larger project.<br>
 NOTE: Format and colors from stdout are not maintained in this README file<br><br>
 
+<br><br>MAKE SURE TO GENERATE YOUR OWN API KEY FROM NIST FOR FASTER API QUERIES. IT IS FREE!<br><br>
 
 They read from "system_info.json", which has an entry for each application, operating system, and hardware identified on a system. 
 Each entry in the file has a software name, version, and then the item in CPE format (see "system_info.json"). 
